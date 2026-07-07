@@ -123,6 +123,15 @@ function t(key: string, values: Record<string, string | number> = {}) {
     return template.replace(/\{(\w+)\}/g, (_, valueKey: string) => String(values[valueKey] ?? ""));
 }
 
+function openExternalUrl(url: string) {
+    if (IS_DISCORD_DESKTOP) {
+        void VencordNative.native.openExternal(url);
+        return;
+    }
+
+    open(url, "_blank", "noopener,noreferrer");
+}
+
 function getShikiMonacoThemeValue(themeName: keyof typeof shikiThemes) {
     return `${MONACO_THEME_SHIKI_PREFIX}${themeName}`;
 }
@@ -1786,7 +1795,7 @@ function openLogModal(filename: string, rawText: string) {
                 showToast(t("toast.copyFailed"), Toasts.Type.FAILURE);
             });
 
-        open(BLUELINE_LOG_READER_URL, "_blank", "noopener,noreferrer");
+        openExternalUrl(BLUELINE_LOG_READER_URL);
     }
 
     const renderMonacoEditor = async () => {
