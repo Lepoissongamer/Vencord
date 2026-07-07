@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code="fr">
+    <string key="plugin.name">VenCode</string>
+    <string key="plugin.description">Ouvrir les fichiers complets</string>
+    <string key="defaultFilename">document.txt</string>
+    <string key="defaultLogFilename">log</string>
+    <string key="validation.minimumOne">La valeur doit être au moins 1</string>
+
+    <string key="settings.edit.lineNumbers.title">Afficher les numéros de lignes dans l’éditeur</string>
+    <string key="settings.edit.lineNumbers.description">Affiche une colonne de numéros de lignes pendant l’édition.</string>
+    <string key="settings.edit.monacoTheme.title">Thème de l’éditeur Monaco</string>
+    <string key="settings.edit.monacoTheme.description">Contrôle le thème utilisé par Monaco.</string>
+    <string key="settings.edit.monacoTheme.auto">Automatique Discord</string>
+    <string key="settings.edit.monacoTheme.vsDark">VS Code sombre</string>
+    <string key="settings.edit.monacoTheme.vsLight">VS Code clair</string>
+    <string key="settings.edit.monacoTheme.highContrast">Contraste élevé sombre</string>
+    <string key="settings.edit.monacoTheme.custom">Thème VS Code personnalisé</string>
+    <string key="settings.edit.customMonacoTheme.title">JSON du thème VS Code personnalisé</string>
+    <string key="settings.edit.customMonacoTheme.description">Colle le JSON d’un thème VS Code ou d’un thème Monaco. Les champs colors, tokenColors, semanticTokenColors et rules sont supportés.</string>
+    <string key="settings.edit.customMonacoTheme.empty">Aucun thème personnalisé collé. Monaco utilisera le thème automatique.</string>
+    <string key="settings.edit.customMonacoTheme.valid">Thème personnalisé valide.</string>
+    <string key="settings.edit.customMonacoTheme.invalid">JSON invalide ou thème non reconnu. Monaco utilisera le thème automatique.</string>
+    <string key="action.insert">Insérer le fichier dans le chat</string>
+    <string key="action.insertAndSend">Insérer le fichier dans le chat et envoyer le message</string>
+    <string key="action.save">Sauvegarder le fichier sur l’ordinateur</string>
+
+    <string key="viewer.search.placeholder">Rechercher...</string>
+    <string key="viewer.search.previous">Précédent</string>
+    <string key="viewer.search.next">Suivant</string>
+    <string key="viewer.copyAll">Tout copier</string>
+    <string key="viewer.editFile">Modifier le fichier</string>
+    <string key="viewer.cancelEdit">Annuler l’édition</string>
+    <string key="viewer.cancelEdit.title">Ferme l’éditeur sans appliquer les changements actuels</string>
+    <string key="viewer.close">Fermer</string>
+    <string key="viewer.actions">Actions</string>
+    <string key="viewer.action.insert.short">Insérer</string>
+    <string key="viewer.action.insert.title">Insérer le fichier dans le chat ({shortcut})</string>
+    <string key="viewer.action.insertAndSend.short">Insérer + Envoyer</string>
+    <string key="viewer.action.insertAndSend.title">Insérer le fichier dans le chat et l’envoyer ({shortcut})</string>
+    <string key="viewer.action.save.short">RAGE Log Parser</string>
+    <string key="viewer.action.save.title">Copier le fichier et ouvrir BlueLine Vibes Log Reader ({shortcut})</string>
+    <string key="viewer.performance.on">Perf : ON</string>
+    <string key="viewer.performance.off">Perf : OFF</string>
+    <string key="viewer.loading">Chargement...</string>
+    <string key="viewer.openFullFile">Ouvrir le fichier complet</string>
+
+    <string key="toast.copied">Fichier copié dans le presse-papiers !</string>
+    <string key="toast.copyFailed">Impossible de copier le fichier.</string>
+    <string key="toast.attachNoChannel">Impossible d’ajouter la pièce jointe : aucun salon actif.</string>
+    <string key="toast.attachAndSendAttempted">Fichier ajouté comme pièce jointe. Envoi immédiat tenté.</string>
+    <string key="toast.attachAdded">Fichier ajouté comme pièce jointe.</string>
+    <string key="toast.attachFailed">Impossible d’ajouter la pièce jointe.</string>
+    <string key="toast.monacoFallback">Monaco n’a pas pu se charger.</string>
+
+    <string key="stats.summary">{characters} caractères • {lines} lignes</string>
+    <string key="stats.results">{count} résultats</string>
+    <string key="stats.performance">mode perf ({mode}, recherche &gt;= {min} caractères, max {max} surlignages)</string>
+    <string key="stats.performance.auto">auto</string>
+    <string key="stats.performance.globalManual">manuel-global</string>
+    <string key="stats.performance.viewerManual">manuel-viewer</string>
+    <string key="stats.lowGpu">mode faible GPU</string>
+    <string key="stats.editing">édition</string>
+    <string key="stats.textmate.loading">TextMate : chargement</string>
+    <string key="stats.textmate.enabled">TextMate : {language}</string>
+    <string key="stats.textmate.failed">TextMate : erreur</string>
+
+    <string key="alert.fetchFullFileFailed">Impossible de récupérer le fichier complet. Le lien de la pièce jointe est peut-être introuvable.</string>
+    <string key="alert.loadFullFileFailed">Impossible de charger le fichier complet. Vérifie que le lien de la pièce jointe est encore valide.</string>
+</language>

@@ -1,0 +1,26 @@
+/*
+ * Vencord, a Discord client mod
+ * Copyright (c) 2026 Vendicated and contributors
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+html,
+body,
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #1e1e1e;
+}
+
+.vc-monaco-search-hit {
+    background-color: rgb(247 204 74 / 65%);
+    color: inherit;
+}
+
+.vc-monaco-search-active {
+    background-color: rgb(255 152 0 / 85%);
+    color: #111;
+}

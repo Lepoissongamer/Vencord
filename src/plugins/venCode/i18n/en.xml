@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code="en">
+    <string key="plugin.name">VenCode</string>
+    <string key="plugin.description">Open full files</string>
+    <string key="defaultFilename">document.txt</string>
+    <string key="defaultLogFilename">log</string>
+    <string key="validation.minimumOne">Value must be at least 1</string>
+
+    <string key="settings.edit.lineNumbers.title">Show line numbers in the editor</string>
+    <string key="settings.edit.lineNumbers.description">Shows a line number column while editing.</string>
+    <string key="settings.edit.monacoTheme.title">Monaco editor theme</string>
+    <string key="settings.edit.monacoTheme.description">Controls the theme used by Monaco.</string>
+    <string key="settings.edit.monacoTheme.auto">Discord automatic</string>
+    <string key="settings.edit.monacoTheme.vsDark">VS Code Dark</string>
+    <string key="settings.edit.monacoTheme.vsLight">VS Code Light</string>
+    <string key="settings.edit.monacoTheme.highContrast">High Contrast Dark</string>
+    <string key="settings.edit.monacoTheme.custom">Custom VS Code theme</string>
+    <string key="settings.edit.customMonacoTheme.title">Custom VS Code theme JSON</string>
+    <string key="settings.edit.customMonacoTheme.description">Paste a VS Code theme JSON or Monaco theme. The colors, tokenColors, semanticTokenColors, and rules fields are supported.</string>
+    <string key="settings.edit.customMonacoTheme.empty">No custom theme pasted. Monaco will use the automatic theme.</string>
+    <string key="settings.edit.customMonacoTheme.valid">Custom theme is valid.</string>
+    <string key="settings.edit.customMonacoTheme.invalid">Invalid JSON or unrecognized theme. Monaco will use the automatic theme.</string>
+    <string key="action.insert">Insert the file into chat</string>
+    <string key="action.insertAndSend">Insert the file into chat and send the message</string>
+    <string key="action.save">Save the file to the computer</string>
+
+    <string key="viewer.search.placeholder">Search...</string>
+    <string key="viewer.search.previous">Previous</string>
+    <string key="viewer.search.next">Next</string>
+    <string key="viewer.copyAll">Copy all</string>
+    <string key="viewer.editFile">Edit file</string>
+    <string key="viewer.cancelEdit">Cancel edit</string>
+    <string key="viewer.cancelEdit.title">Close the editor without applying the current changes</string>
+    <string key="viewer.close">Close</string>
+    <string key="viewer.actions">Actions</string>
+    <string key="viewer.action.insert.short">Insert</string>
+    <string key="viewer.action.insert.title">Insert the file into chat ({shortcut})</string>
+    <string key="viewer.action.insertAndSend.short">Insert + Send</string>
+    <string key="viewer.action.insertAndSend.title">Insert the file into chat and send it ({shortcut})</string>
+    <string key="viewer.action.save.short">RAGE Log Parser</string>
+    <string key="viewer.action.save.title">Copy the file and open BlueLine Vibes Log Reader ({shortcut})</string>
+    <string key="viewer.performance.on">Perf: ON</string>
+    <string key="viewer.performance.off">Perf: OFF</string>
+    <string key="viewer.loading">Loading...</string>
+    <string key="viewer.openFullFile">Open full file</string>
+
+    <string key="toast.copied">File copied to clipboard!</string>
+    <string key="toast.copyFailed">Unable to copy the file.</string>
+    <string key="toast.attachNoChannel">Unable to add attachment: no active channel.</string>
+    <string key="toast.attachAndSendAttempted">File added as an attachment. Immediate send attempted.</string>
+    <string key="toast.attachAdded">File added as an attachment.</string>
+    <string key="toast.attachFailed">Unable to add the attachment.</string>
+    <string key="toast.monacoFallback">Monaco could not load.</string>
+
+    <string key="stats.summary">{characters} characters • {lines} lines</string>
+    <string key="stats.results">{count} results</string>
+    <string key="stats.performance">perf mode ({mode}, search &gt;= {min} chars, max {max} highlights)</string>
+    <string key="stats.performance.auto">auto</string>
+    <string key="stats.performance.globalManual">manual-global</string>
+    <string key="stats.performance.viewerManual">manual-viewer</string>
+    <string key="stats.lowGpu">low-gpu mode</string>
+    <string key="stats.editing">editing</string>
+    <string key="stats.textmate.loading">TextMate: loading</string>
+    <string key="stats.textmate.enabled">TextMate: {language}</string>
+    <string key="stats.textmate.failed">TextMate: error</string>
+
+    <string key="alert.fetchFullFileFailed">Unable to retrieve the full file. The attachment link may be missing.</string>
+    <string key="alert.loadFullFileFailed">Unable to load the full file. Check that the attachment link is still valid.</string>
+</language>

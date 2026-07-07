@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language code="de">
+    <string key="plugin.name">VenCode</string>
+    <string key="plugin.description">Vollständige Dateien öffnen</string>
+    <string key="defaultFilename">dokument.txt</string>
+    <string key="defaultLogFilename">log</string>
+    <string key="validation.minimumOne">Der Wert muss mindestens 1 sein</string>
+
+    <string key="settings.edit.lineNumbers.title">Zeilennummern im Editor anzeigen</string>
+    <string key="settings.edit.lineNumbers.description">Zeigt beim Bearbeiten eine Spalte mit Zeilennummern an.</string>
+    <string key="settings.edit.monacoTheme.title">Monaco-Editor-Theme</string>
+    <string key="settings.edit.monacoTheme.description">Steuert das Theme, das Monaco verwendet.</string>
+    <string key="settings.edit.monacoTheme.auto">Discord automatisch</string>
+    <string key="settings.edit.monacoTheme.vsDark">VS Code Dunkel</string>
+    <string key="settings.edit.monacoTheme.vsLight">VS Code Hell</string>
+    <string key="settings.edit.monacoTheme.highContrast">Hoher Kontrast Dunkel</string>
+    <string key="settings.edit.monacoTheme.custom">Benutzerdefiniertes VS Code-Theme</string>
+    <string key="settings.edit.customMonacoTheme.title">JSON des benutzerdefinierten VS Code-Themes</string>
+    <string key="settings.edit.customMonacoTheme.description">Füge ein VS Code-Theme-JSON oder Monaco-Theme ein. Die Felder colors, tokenColors, semanticTokenColors und rules werden unterstützt.</string>
+    <string key="settings.edit.customMonacoTheme.empty">Kein benutzerdefiniertes Theme eingefügt. Monaco verwendet das automatische Theme.</string>
+    <string key="settings.edit.customMonacoTheme.valid">Benutzerdefiniertes Theme ist gültig.</string>
+    <string key="settings.edit.customMonacoTheme.invalid">Ungültiges JSON oder nicht erkanntes Theme. Monaco verwendet das automatische Theme.</string>
+    <string key="action.insert">Datei einfügen</string>
+    <string key="action.insertAndSend">Datei einfügen und senden</string>
+    <string key="action.save">Datei auf dem Computer speichern</string>
+
+    <string key="viewer.search.placeholder">Suche...</string>
+    <string key="viewer.search.previous">Vorheriges Ergebnis</string>
+    <string key="viewer.search.next">Nächstes Ergebnis</string>
+    <string key="viewer.copyAll">Alles kopieren</string>
+    <string key="viewer.editFile">Datei bearbeiten</string>
+    <string key="viewer.cancelEdit">Bearbeitung abbrechen</string>
+    <string key="viewer.cancelEdit.title">Editor schließen, ohne die aktuellen Änderungen anzuwenden</string>
+    <string key="viewer.close">Schließen</string>
+    <string key="viewer.actions">Aktionen</string>
+    <string key="viewer.action.insert.short">Einfügen</string>
+    <string key="viewer.action.insert.title">Datei in den Chat einfügen ({shortcut})</string>
+    <string key="viewer.action.insertAndSend.short">Einfügen + Senden</string>
+    <string key="viewer.action.insertAndSend.title">Datei in den Chat einfügen und senden ({shortcut})</string>
+    <string key="viewer.action.save.short">RAGE Log Parser</string>
+    <string key="viewer.action.save.title">Datei kopieren und BlueLine Vibes Log Reader öffnen ({shortcut})</string>
+    <string key="viewer.performance.on">Perf: An</string>
+    <string key="viewer.performance.off">Perf: Aus</string>
+    <string key="viewer.loading">Lädt...</string>
+    <string key="viewer.openFullFile">Vollständige Datei öffnen</string>
+
+    <string key="toast.copied">Datei in die Zwischenablage kopiert!</string>
+    <string key="toast.copyFailed">Datei konnte nicht kopiert werden.</string>
+    <string key="toast.attachNoChannel">Anhang konnte nicht hinzugefügt werden: kein aktiver Kanal.</string>
+    <string key="toast.attachAndSendAttempted">Datei als Anhang hinzugefügt. Sofortiges Senden versucht.</string>
+    <string key="toast.attachAdded">Datei als Anhang hinzugefügt.</string>
+    <string key="toast.attachFailed">Anhang konnte nicht hinzugefügt werden.</string>
+    <string key="toast.monacoFallback">Monaco konnte nicht geladen werden.</string>
+
+    <string key="stats.summary">{characters} Zeichen • {lines} Zeilen</string>
+    <string key="stats.results">{count} Ergebnisse</string>
+    <string key="stats.performance">Leistungsmodus ({mode}, Suche &gt;= {min} Zeichen, max. {max} Hervorhebungen)</string>
+    <string key="stats.performance.auto">automatisch</string>
+    <string key="stats.performance.globalManual">manuell-global</string>
+    <string key="stats.performance.viewerManual">manuell-viewer</string>
+    <string key="stats.lowGpu">niedriger GPU-Modus</string>
+    <string key="stats.editing">Bearbeitung</string>
+    <string key="stats.textmate.loading">TextMate: lädt</string>
+    <string key="stats.textmate.enabled">TextMate: {language}</string>
+    <string key="stats.textmate.failed">TextMate: Fehler</string>
+
+    <string key="alert.fetchFullFileFailed">Die vollständige Datei konnte nicht abgerufen werden. Der Anhang-Link fehlt möglicherweise.</string>
+    <string key="alert.loadFullFileFailed">Die vollständige Datei konnte nicht geladen werden. Prüfe, ob der Anhang-Link noch gültig ist.</string>
+</language>
