@@ -147,3 +147,11 @@ export const DateUtils: t.DateUtils = mapMangledModuleLazy("millisecondsInUnit:"
 });
 
 export const MessageTypeSets: t.MessageTypeSets = findByPropsLazy("REPLYABLE", "FORWARDABLE");
+
+export const Toasts = {
+    Type: {
+        MESSAGE: "message",
+        SUCCESS: "success",
+        FAILURE: "failure",
+    }
+} as const;
